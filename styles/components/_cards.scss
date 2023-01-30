@@ -7,6 +7,10 @@
     flex-direction: column;
     border: 1px solid grey;
     position: relative;
+    @media (max-width: 886px) {
+        width: 100%;
+        height: 600px;
+    }
     .title {
         padding: 5px;
         font-weight: 800;
