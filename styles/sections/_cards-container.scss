@@ -17,11 +17,6 @@
         align-items: flex-start;
         left: 50%;
         transform: translate(-50%);
-        .card {
-            min-width: 340px;
-            height: 450px;
-            background-color: var(--clr-cards);
-        }
     }
         .card-description {
             text-align: center;

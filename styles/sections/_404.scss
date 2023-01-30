@@ -1,0 +1,27 @@
+.lost-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: url(/visuals/icons/404.svg) center center no-repeat;
+    background-size: contain;
+    background-color: var(--clr-main);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    animation: rotate 15s linear infinite;
+    overflow: hidden;
+    p {
+      font-size: clamp(30px, 8vw, 150px);
+      z-index: 9999999;
+      color: red;
+    }
+  }
+
+  @keyframes rotate {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
